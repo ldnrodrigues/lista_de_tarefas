@@ -37,14 +37,6 @@ class TarefasItens extends StatelessWidget {
                 foregroundColor: Colors.white,
                 spacing: 0,
               ),
-              SlidableAction(
-                onPressed: (context) => onEdit(tarefa),
-                backgroundColor: Color(0xff248232),
-                autoClose: true,
-                icon: Icons.check,
-                foregroundColor: Colors.white,
-                spacing: 0,
-              ),
             ],
           ),
           child: Container(
